@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toky's Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo"><b>Portfolio</b></a>
+        <ul>
+            <li class="active"><a href="#about">Home</a></li>
+            <li><a href="about.html">About</a></li> 
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">Experiences</a></li> 
+            <li><a href="mailto:shajedul.arefin@g.bracu.ac.bd">Email Me</a></li>    
+        </ul>
+    </nav>
+    <section class="home">
+        <div class="home-info">
+            <h1>
+                Shajedul Arefin
+            </h1>
+            <h2>
+                I am a
+                <span style="--i:4">student</span>
+                <span style="--i:3">peoblem solver</span>
+                <span style="--i:2">ML & AI enthusiast</span>
+                <span style="--i:1">devoloper</span> 
+            </h2>
+            <p>
+                I am a 3rd year student at the Brac University, pursuing a BSc in Computer Science and Engineering. I am passionate about web development and have a keen interest in exploring new technologies. I believe in the saying that <i>"necessity is the mother of invention."</i>
+            </p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/mrbruce778"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/shajedularefin/"><i class='bx bxl-linkedin'></i></a> 
+                    <a href="#"><i class='bx bxl-twitter'></i></a> 
+                    <a href="#"><i class='bx bxl-youtube'></i></a>     
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-items">
+                    <img src="toky.png" alt="Shajedul Arefin">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="page-info" style="text-align:center; padding: 20px; color: #3498db;"></footer>
+    <script>
+    const footer = document.getElementById('page-info');
+    const url = window.location.href;
+    const lastModified = document.lastModified;
+    footer.textContent = `Page URL: ${url} | Last modified: ${lastModified}`;
+    </script>
+
+</body>
+</html>
